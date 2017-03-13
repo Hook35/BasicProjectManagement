@@ -1,0 +1,25 @@
+C:\Users\Ömer\Desktop\Yeni klasör\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\mehme\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.dll
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.pdb
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\ProjectManagement.exe
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.dll
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\ProjectManagement.pdb
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.xml
+C:\Users\mehme\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.dll
+C:\Users\mehme\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.pdb
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.dll.config
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehme\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.dll.config
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\YPYUnitTest.pdb
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\ProjectManagement.exe
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\ProjectManagement.pdb
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.xml
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\YPYUnitTest\obj\Debug\YPYUnitTest.pdb

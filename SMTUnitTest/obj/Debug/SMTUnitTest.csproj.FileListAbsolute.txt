@@ -1,0 +1,9 @@
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\SMTUnitTest.dll
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\SMTUnitTest.pdb
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\ProjectManagement.exe
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\EntityFramework.dll
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\ProjectManagement.pdb
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\bin\Debug\EntityFramework.xml
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\obj\Debug\SMTUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\obj\Debug\SMTUnitTest.dll
+C:\Users\Ömer\Downloads\ProjectManagement\SMTUnitTest\obj\Debug\SMTUnitTest.pdb

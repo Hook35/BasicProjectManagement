@@ -1,0 +1,104 @@
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Login.resources
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe.licenses
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Kayit.resources
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.dll
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.xml
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteri.resources
+c:\users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteriPrjEkle.resources
+C:\Users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmYonetici.resources
+C:\Users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmProssesEkle.resources
+C:\Users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\mehme\documents\visual studio 2013\Projects\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Surecler.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteri.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteriPrjEkle.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmProssesEkle.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmYonetici.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Kayit.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Login.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Surecler.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.WorkFlow.resources
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\Ömer\Downloads\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe.licenses
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteri.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteriPrjEkle.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmProssesEkle.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmYonetici.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Kayit.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Login.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Surecler.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe.licenses
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.dll
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.xml
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmCalisan.resources
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\mehme\Desktop\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmIsTakibi.resources
+C:\Users\Ömer\Desktop\Yeni klasör\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\Ömer\Desktop\Yeni klasör\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\Ömer\Desktop\Yeni klasör\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.dll
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.xml
+C:\Users\mehme\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmCalisan.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmIsTakibi.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteri.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteriPrjEkle.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmProssesEkle.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmYonetici.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Kayit.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Login.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Surecler.resources
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe.licenses
+C:\Users\mehme\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.xml
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmCalisan.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmIsTakibi.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteri.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMusteriPrjEkle.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmProssesEkle.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmYonetici.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Kayit.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Login.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Surecler.resources
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\mehme\Desktop\Mehmet Ersoy - Ömer Batır\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe.licenses

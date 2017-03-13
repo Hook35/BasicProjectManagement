@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YazilimYonetimAraciModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Process">
+    <Key>
+      <PropertyRef Name="ProcessID" />
+    </Key>
+    <Property Name="ProcessID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProcessName" Type="nvarchar" MaxLength="200" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="FinishDate" Type="datetime" />
+    <Property Name="Duration" Type="int" />
+    <Property Name="CompleteRate" Type="int" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ParentID" Type="int" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Descriptions" Type="nvarchar" MaxLength="1000" />
+    <Property Name="CreateUserID" Type="int" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="FinishDate" Type="datetime" />
+    <Property Name="isActive" Type="bit" />
+    <Property Name="Budget" Type="money" />
+    <Property Name="CreateUserID" Type="int" />
+    <Property Name="ProjectUserID" Type="int" />
+  </EntityType>
+  <EntityType Name="RoleNames">
+    <Key>
+      <PropertyRef Name="RoleNameID" />
+    </Key>
+    <Property Name="RoleNameID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UserLogDetails">
+    <Key>
+      <PropertyRef Name="UserLogDetailsID" />
+    </Key>
+    <Property Name="UserLogDetailsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserLogsID" Type="int" />
+    <Property Name="UserLogName" Type="nvarchar" MaxLength="200" />
+    <Property Name="LogDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserLogs">
+    <Key>
+      <PropertyRef Name="UserLogsID" />
+    </Key>
+    <Property Name="UserLogsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserLogDetailsID" Type="nchar" MaxLength="10" />
+    <Property Name="UserID" Type="int" />
+  </EntityType>
+  <EntityType Name="UserProcess">
+    <Key>
+      <PropertyRef Name="UserProcessID" />
+    </Key>
+    <Property Name="UserProcessID" Type="int" Nullable="false" />
+    <Property Name="UsersID" Type="int" />
+    <Property Name="ProcessID" Type="int" />
+    <Property Name="UserRolesID" Type="int" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="UserRolesID" />
+    </Key>
+    <Property Name="UserRolesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="RoleNameID" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UsersID" />
+    </Key>
+    <Property Name="UsersID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserSurname" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserNickname" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserRole" Type="int" />
+    <Property Name="UserCreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="WorkFollow">
+    <Key>
+      <PropertyRef Name="WorkFollowID" />
+    </Key>
+    <Property Name="WorkFollowID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProcessID" Type="int" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="FinishDate" Type="datetime" />
+    <Property Name="WorkFollowDetailsID" Type="int" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="CompleteRate" Type="int" />
+  </EntityType>
+  <EntityType Name="WorkFollowDetails">
+    <Key>
+      <PropertyRef Name="WorkFollowDetailsID" />
+    </Key>
+    <Property Name="WorkFollowDetailsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkFollowName" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <Association Name="FK_tblProcess_tblUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Process" Type="Self.Process" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="Process">
+        <PropertyRef Name="CreateUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProcessProcessID_tblUserProcessProcessID">
+    <End Role="Process" Type="Self.Process" Multiplicity="0..1" />
+    <End Role="UserProcess" Type="Self.UserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Process">
+        <PropertyRef Name="ProcessID" />
+      </Principal>
+      <Dependent Role="UserProcess">
+        <PropertyRef Name="ProcessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProcessProcessID_WorkFollowProcessID">
+    <End Role="Process" Type="Self.Process" Multiplicity="0..1" />
+    <End Role="WorkFollow" Type="Self.WorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Process">
+        <PropertyRef Name="ProcessID" />
+      </Principal>
+      <Dependent Role="WorkFollow">
+        <PropertyRef Name="ProcessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjects_tblUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="Projects">
+        <PropertyRef Name="CreateUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjects_tblUsers1">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="Projects">
+        <PropertyRef Name="ProjectUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjectsProjectID_tblProcessProjectID">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="0..1" />
+    <End Role="Process" Type="Self.Process" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="Process">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID">
+    <End Role="UserLogs" Type="Self.UserLogs" Multiplicity="0..1" />
+    <End Role="UserLogDetails" Type="Self.UserLogDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogs">
+        <PropertyRef Name="UserLogsID" />
+      </Principal>
+      <Dependent Role="UserLogDetails">
+        <PropertyRef Name="UserLogsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRoles_tblRoleNames">
+    <End Role="RoleNames" Type="Self.RoleNames" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RoleNames">
+        <PropertyRef Name="RoleNameID" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="RoleNameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRoles_tblUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID">
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="0..1" />
+    <End Role="UserProcess" Type="Self.UserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="UserRolesID" />
+      </Principal>
+      <Dependent Role="UserProcess">
+        <PropertyRef Name="UserRolesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUserID_WorkFollowUserID">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="WorkFollow" Type="Self.WorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="WorkFollow">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID_tblUserLogsUserID">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="UserLogs" Type="Self.UserLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="UserLogs">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID_tblUserProcessUsersID">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="UserProcess" Type="Self.UserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="UserProcess">
+        <PropertyRef Name="UsersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID">
+    <End Role="WorkFollowDetails" Type="Self.WorkFollowDetails" Multiplicity="0..1" />
+    <End Role="WorkFollow" Type="Self.WorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkFollowDetails">
+        <PropertyRef Name="WorkFollowDetailsID" />
+      </Principal>
+      <Dependent Role="WorkFollow">
+        <PropertyRef Name="WorkFollowDetailsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YazilimYonetimAraciModelStoreContainer">
+    <EntitySet Name="Process" EntityType="Self.Process" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoleNames" EntityType="Self.RoleNames" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogDetails" EntityType="Self.UserLogDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogs" EntityType="Self.UserLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProcess" EntityType="Self.UserProcess" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFollow" EntityType="Self.WorkFollow" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFollowDetails" EntityType="Self.WorkFollowDetails" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tblProcess_tblUsers" Association="Self.FK_tblProcess_tblUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Process" EntitySet="Process" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProcessProcessID_tblUserProcessProcessID" Association="Self.FK_tblProcessProcessID_tblUserProcessProcessID">
+      <End Role="Process" EntitySet="Process" />
+      <End Role="UserProcess" EntitySet="UserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProcessProcessID_WorkFollowProcessID" Association="Self.FK_tblProcessProcessID_WorkFollowProcessID">
+      <End Role="Process" EntitySet="Process" />
+      <End Role="WorkFollow" EntitySet="WorkFollow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjects_tblUsers" Association="Self.FK_tblProjects_tblUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Projects" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjects_tblUsers1" Association="Self.FK_tblProjects_tblUsers1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Projects" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjectsProjectID_tblProcessProjectID" Association="Self.FK_tblProjectsProjectID_tblProcessProjectID">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="Process" EntitySet="Process" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID" Association="Self.FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID">
+      <End Role="UserLogs" EntitySet="UserLogs" />
+      <End Role="UserLogDetails" EntitySet="UserLogDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRoles_tblRoleNames" Association="Self.FK_tblUserRoles_tblRoleNames">
+      <End Role="RoleNames" EntitySet="RoleNames" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRoles_tblUsers" Association="Self.FK_tblUserRoles_tblUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID" Association="Self.FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="UserProcess" EntitySet="UserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUserID_WorkFollowUserID" Association="Self.FK_tblUsersUserID_WorkFollowUserID">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="WorkFollow" EntitySet="WorkFollow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID_tblUserLogsUserID" Association="Self.FK_tblUsersUsersID_tblUserLogsUserID">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserLogs" EntitySet="UserLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID_tblUserProcessUsersID" Association="Self.FK_tblUsersUsersID_tblUserProcessUsersID">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserProcess" EntitySet="UserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID" Association="Self.FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID">
+      <End Role="WorkFollowDetails" EntitySet="WorkFollowDetails" />
+      <End Role="WorkFollow" EntitySet="WorkFollow" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
